@@ -1,0 +1,45 @@
+  Eclipse Color Theme	0.13.0.201311210852	com.github.eclipsecolortheme.feature.feature.group	GitHub
+  Eclipse Git Team Provider	3.0.0.201306101825-r	org.eclipse.egit.feature.group	Eclipse EGit
+  Fest Assertions Generator	1.0.0	org.fest.eclipse.assertions.generator.feature.group	Fest
+  File Encoding Info	1.1.2.201004212251	tsoiyatshing.fileencodinginfo.feature.feature.group	Tsoi Yat Shing
+  FindBugs Feature	2.0.3.20131122-15027	edu.umd.cs.findbugs.plugin.eclipse.feature.group	FindBugs Project
+  Google App Engine Java SDK 1.8.8	1.8.8	com.google.appengine.eclipse.sdkbundle.feature.feature.group	Google, Inc.
+  Google Plugin for Eclipse 4.2	3.4.2.v201310081840-rel-r42	com.google.gdt.eclipse.suite.e42.feature.feature.group	Google, Inc.
+  Google Web Toolkit SDK 2.5.1	2.5.1	com.google.gwt.eclipse.sdkbundle.feature.feature.group	Google, Inc.
+  Gradle IDE	3.4.0.201310051517-RELEASE	org.springsource.ide.eclipse.gradle.feature.feature.group	GoPivotal, Inc.
+  Grails (production release)	2.2.4	org.codehaus.grails.bundle.feature.group	Codehaus.org
+  Grails IDE	3.4.0.201310051518-RELEASE	org.grails.ide.eclipse.feature.group	GoPivotal, Inc.
+  Groovy Compiler 2.1 Feature	2.9.0.xx-20130828-1400-e43-RELEASE	org.codehaus.groovy21.feature.feature.group	Codehaus.org
+  Groovy-Eclipse Feature	2.9.0.xx-20130828-1400-e43-RELEASE	org.codehaus.groovy.eclipse.feature.feature.group	Codehaus.org
+  Groovy-Eclipse M2E integration	2.9.0.xx-20130828-1400-e43-RELEASE	org.codehaus.groovy.m2eclipse.feature.group	Codehaus.org
+  Infinitest	5.1.110	org.infinitest.eclipse.feature.feature.group	null
+  InSynth Feature	1.0.0.v-2_10-201310140130-3a8068f	ch.epfl.insynth.feature.feature.group	scala-ide.org
+  InSynth Source Feature	1.0.0.v-2_10-201310140130-3a8068f	ch.epfl.insynth.source.feature.feature.group	scala-ide.org
+  JNA Library	3.2.7	com.sun.jna.feature.group	null
+  JSDT jQuery Integration	1.6.0	org.eclipselabs.jsdt.jquery_feature.feature.group	Philippe Marschall
+  JVM Monitor	3.8.1.201302030008	org.jvmmonitor.feature.group	JvmMonitor.org
+  m2e - Maven Integration for Eclipse	1.4.0.20130601-0317	org.eclipse.m2e.feature.feature.group	Eclipse.org - m2e
+  m2e - slf4j over logback logging (Optional)	1.4.0.20130601-0317	org.eclipse.m2e.logback.feature.feature.group	Eclipse.org - m2e
+  m2e connector for build-helper-maven-plugin	0.15.0.201207090124	org.sonatype.m2e.buildhelper.feature.feature.group	Sonatype, Inc.
+  m2e connector for mavenarchiver pom properties	0.15.0.201207090125-signed-20130612210623	org.sonatype.m2e.mavenarchiver.feature.feature.group	Sonatype, Inc.
+  m2e-wtp - Maven Integration for WTP	1.0.1.20130911-1545	org.eclipse.m2e.wtp.feature.feature.group	Eclipse.org - m2e-wtp
+  Maven Integration for AJDT (Optional)	0.13.0.201107281640	org.maven.ide.eclipse.ajdt.feature.feature.group	Sonatype, Inc.
+  Maven Integration for Eclipse JDT APT	1.0.1.201209200721	org.jboss.tools.maven.apt.feature.feature.group	JBoss, by Red Hat
+  MonjaDBFeature	1.0.16	net.jumperz.app.MMonjaDB.feature.group	JUMPERZ.NET
+  MouseFeed	2.0.2.201306111251	com.mousefeed.feature.feature.group	Heavy Lifting Software, Sigasi & Robert Wloch
+  Native JavaHL 1.6 Implementation (Optional)	3.0.2.I20130808-1700	org.polarion.eclipse.team.svn.connector.javahl16.feature.group	Polarion Software
+  Native JavaHL 1.7 Implementation (Optional)	3.0.2.I20130808-1700	org.polarion.eclipse.team.svn.connector.javahl17.feature.group	Polarion Software
+  PMD Plug-in	4.0.2.v20131031-1124	net.sourceforge.pmd.eclipse.feature.group	PMD Project
+  SonarQube Java Analyser	3.3.0.20131115-1016-RELEASE	org.sonar.ide.eclipse.jdt.feature.feature.group	SonarSource
+  SonarQube m2e Connector	3.3.0.20131115-1016-RELEASE	org.sonar.ide.eclipse.m2e.feature.feature.group	SonarSource
+  Spring Tool Suite	3.4.0.201310051614-RELEASE-e43	org.springsource.sts.ide	null
+  Spring UAA Integration (optional)	3.4.0.201310051510-RELEASE	org.springframework.ide.eclipse.uaa.feature.feature.group	Spring IDE Developers
+  Subversive Revision Graph (Optional)	1.1.0.I20130619-1700	org.eclipse.team.svn.revision.graph.feature.group	Eclipse.org
+  Subversive SVN Integration for the Mylyn Project (Optional)	1.1.0.I20130619-1700	org.eclipse.team.svn.mylyn.feature.group	Eclipse.org
+  Subversive SVN JDT Ignore Extensions (Optional)	1.1.0.I20130619-1700	org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group	Eclipse.org
+  Subversive SVN Team Provider	1.1.1.I20130816-1700	org.eclipse.team.svn.feature.group	Eclipse.org
+  Subversive SVN Team Provider Localization (Optional)	1.1.0.I20130619-1700	org.eclipse.team.svn.nl1.feature.group	Eclipse.org
+  SVNKit 1.3.8 Implementation (Optional)	3.0.2.I20130808-1700	org.polarion.eclipse.team.svn.connector.svnkit16.feature.group	Polarion Software
+  SVNKit 1.7.10 Implementation (Optional)	3.0.2.I20130808-1700	org.polarion.eclipse.team.svn.connector.svnkit17.feature.group	Polarion Software
+  Thymeleaf Content Assist	2.0.3.201309300830	org.thymeleaf.extras.eclipse.contentassist.feature.feature.group	Thymeleaf Project
+  Thymeleaf Content Assist source code	2.0.3.201309300830	org.thymeleaf.extras.eclipse.contentassist.feature.source.feature.group	Thymeleaf Project
