@@ -17,6 +17,9 @@ pom.xml.releaseBackup
 pom.xml.next
 release.properties
 
+#gradle
+.gradle
+
 #play
 bin
 db
