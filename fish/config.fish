@@ -42,6 +42,7 @@ set -gx PATH $JAVA_HOME/bin $MAVEN_HOME/bin $JMETER_HOME $HOME/.local/bin $PATH
 alias makeRelease='mvn clean install -Prelease'
 alias mvn-update='mvn versions:display-dependency-updates'
 alias mvn-update-plugin='mvn versions:display-plugin-updates'
+alias mvn-analize='mvn dependency:analyze'
 alias mvn-source='mvn package -Dmaven.test.skip=true -DdownloadSources=true -DdownloadJavadocs=true'
 alias mvni='mvn clean install'
 alias mvnp='mvn clean package'
@@ -64,7 +65,6 @@ alias git_revision_count_author='git log --pretty=oneline  --author=przodownikR1
 #find /home/przodownik/sts3.2.0/PayByNet -name "*app*.xml" -print | xargs grep "camel" 
 #find /home/przodownik/sts3.2.0/PayByNet -name 'application*'
 #find . -type f -name "*html"
-
 
 function display_proc --description 'proc name'
   ps -aux | grep $argv
