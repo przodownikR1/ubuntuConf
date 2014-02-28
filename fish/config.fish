@@ -25,17 +25,20 @@ set -g __fish_git_prompt_color_cleanstate green bold
 
 
 
-
-set -g -x MAVEN_OPTS "-Xmx1024m -XX:MaxPermSize=256m -agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n"
+#-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
+set -g -x MAVEN_OPTS "-Xmx1024m -XX:MaxPermSize=256m "
 set -g -x  JAVA_OPTS="-verbose:gc -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps"
-set -g -x  GRADLE_OPTS="-Xmx1024m"
+set -g -x  GRADLE_OPTS="-Xmx1024m -Dorg.gradle.daemon=true"
 set -gx GRAILS_HOME /home/przodownik/grails-2.1.0
 set -gx GRADLE_HOME /opt/gradle
+set -gx GRADLE_OPTS="-Dorg.gradle.daemon=true"
 set -gx JAVA_HOME /opt/jdk1.7.0_45
 set -gx MAVEN_HOME /opt/apache-maven-3.1.1
 set -gx M2_REPO /home/przodownik/repos
 set -gx JBOSS_HOME /opt/jboss-as-7.1.1.Final
 set -gx JMETER_HOME /opt/apache-jmeter-2.9
+
+set -g -x WCS_PASSWORD slawek
 
 set -gx PATH $JAVA_HOME/bin $MAVEN_HOME/bin $JMETER_HOME $HOME/.local/bin $PATH
 
@@ -65,6 +68,7 @@ alias git_revision_count_author='git log --pretty=oneline  --author=przodownikR1
 #find /home/przodownik/sts3.2.0/PayByNet -name "*app*.xml" -print | xargs grep "camel" 
 #find /home/przodownik/sts3.2.0/PayByNet -name 'application*'
 #find . -type f -name "*html"
+
 
 function display_proc --description 'proc name'
   ps -aux | grep $argv
