@@ -26,12 +26,11 @@ set -g __fish_git_prompt_color_cleanstate green bold
 
 
 #-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
-set -g -x MAVEN_OPTS "-Xmx1024m -XX:MaxPermSize=256m "
-set -g -x  JAVA_OPTS="-verbose:gc -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps"
-set -g -x  GRADLE_OPTS="-Xmx1024m -Dorg.gradle.daemon=true"
+set -x  MAVEN_OPTS "-Xmx1024m -XX:MaxPermSize=256m "
+set -x  JAVA_OPTS "-verbose:gc -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps"
+set -x  GRADLE_OPTS "-Xmx1024m -Dorg.gradle.daemon=true"
 set -gx GRAILS_HOME /home/przodownik/grails-2.1.0
 set -gx GRADLE_HOME /opt/gradle
-set -gx GRADLE_OPTS="-Dorg.gradle.daemon=true"
 set -gx JAVA_HOME /opt/jdk1.7.0_45
 set -gx MAVEN_HOME /opt/apache-maven-3.1.1
 set -gx M2_REPO /home/przodownik/repos
