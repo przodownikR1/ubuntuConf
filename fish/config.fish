@@ -37,7 +37,7 @@ set -gx M2_REPO /home/przodownik/repos
 set -gx JBOSS_HOME /opt/jboss-as-7.1.1.Final
 set -gx JMETER_HOME /opt/apache-jmeter-2.9
 
-set -g -x WCS_PASSWORD slawek
+set -g -x APP_PASSWORD slawek
 
 set -gx PATH $JAVA_HOME/bin $MAVEN_HOME/bin $JMETER_HOME $HOME/.local/bin $PATH
 
