@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rule-items>
+  <item checked="true" position="0">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>255,255,255</background>
+    <foreground>0,128,0</foreground>
+    <value><![CDATA[INFO]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+  <item checked="true" position="1">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>255,255,255</background>
+    <foreground>209,123,34</foreground>
+    <value><![CDATA[WARN]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+  <item checked="true" position="2">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>255,255,255</background>
+    <foreground>255,0,0</foreground>
+    <value><![CDATA[ERROR]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>true</case-insensitive>
+  </item>
+  <item checked="true" position="3">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>255,255,255</background>
+    <foreground>19,165,213</foreground>
+    <value><![CDATA[spring]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+  <item checked="true" position="4">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>127,127,127</background>
+    <foreground>255,255,255</foreground>
+    <value><![CDATA[hibernate]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+  <item checked="true" position="5">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>144,238,144</background>
+    <foreground>255,255,255</foreground>
+    <value><![CDATA[jdbc]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+  <item checked="true" position="6">
+    <rule>de.anbos.eclipse.logviewer.plugin.viewer.rule.WordRule</rule>
+    <background>255,255,255</background>
+    <foreground>255,0,160</foreground>
+    <value><![CDATA[FATAL]]></value>
+    <matchmode>find</matchmode>
+    <case-insensitive>false</case-insensitive>
+  </item>
+</rule-items>

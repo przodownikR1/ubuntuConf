@@ -1,4 +1,3 @@
-
 [user]
 	name = Slawomir Borowiec
 	email = przodownik@tlen.pl
@@ -18,7 +17,6 @@
     changed = green
     untracked = cyan
 [alias]
-    ## https://github.com/jakubnabrdalik/gitkurwa
     #those who don't know history, are doomed to repeat it
     hist = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s' --graph
     histfull = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s%n' --graph --name-status
@@ -70,8 +68,13 @@
 
     #Deletes orphaned remote branches (.git/refs/remotes/origin), clean up reflog and remove all untracked files
     cleanuplocal = !git remote prune origin && git gc && git clean -df
+     
+    shortlog = !git shortlog -s -n
+    countuser = !sh -c 'git shortlog -s -n | wc -l'
 
     unstage = reset HEAD --
+	pretty = log --graph --decorate --pretty=oneline --abbrev-commit
+	prettyAll = log --graph --decorate --all --pretty=oneline --abbrev-commit
 [apply]
     whitespace = nowarn
 [core]
@@ -82,3 +85,9 @@
     autocorrect = 1 #fucking magic!
 
 
+[credential]
+	helper = store
+[push]
+	default = matching
+[merge]
+	tool = meld
