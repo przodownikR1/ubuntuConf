@@ -27,7 +27,7 @@ set -g __fish_git_prompt_color_cleanstate green bold
 
 #-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
 set -x  MAVEN_OPTS "-Xmx2048m "
-set -x  JAVA_OPTS "-verbose:gc -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/przodownik/logs/"
+set -x  JAVA_OPTS "-Xms1024m -Xmx4096m -XX:MaxMetaspaceSize=512m -verbose:gc  -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/przodownik/logs/dump.hprof -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M"
 set -x  SBT_OPTS  "-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
 set -x  GRADLE_OPTS "-Xmx1024m -Dorg.gradle.daemon=true"
 set -gx GRAILS_HOME /home/przodownik/grails-2.1.0
