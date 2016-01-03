@@ -27,11 +27,11 @@ set -g __fish_git_prompt_color_cleanstate green bold
 
 #-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
 set -x  MAVEN_OPTS "-Xmx1024m"
-set -x  JAVA_OPTS "-verbose:gc -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps"
+set -x  JAVA_OPTS "-Xms1024m -Xmx4096m -XX:MaxMetaspaceSize=512m -verbose:gc  -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/przodownik/logs/dump.hprof -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M"
 set -x  SBT_OPTS  "-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled"
 set -x  GRADLE_OPTS "-Xmx1024m -Dorg.gradle.daemon=true"
 set -gx GRAILS_HOME /opt/grails
-set -gx GRADLE_HOME /opt/gradle-2.3
+set -gx GRADLE_HOME /opt/gradle
 set -gx SBT_HOME /opt/sbt
 set -gx ES_CLASSPATH /opt/elasticsearch-1.3.4
 set -gx ES_HOME /opt/elasticsearch-1.3.4
@@ -45,7 +45,7 @@ set -gx M2_REPO /opt/repos
 set -gx JBOSS_HOME /opt/jboss-as-7.1.1.Final
 set -gx WILDFLY_HOME /opt/wildfly
 set -gx JMETER_HOME /opt/apache-jmeter-2.9
-set -gx SPRING_CLI /opt/spring-1.1.4.RELEASE
+set -gx SPRING_CLI /opt/spring-1.3.1.RELEASE
 
 set -g -x WCS_PASSWORD slawek
 set PATH $PATH (find ~/.gvm/*/current/bin -maxdepth 0)
