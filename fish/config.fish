@@ -26,6 +26,7 @@ set -g __fish_git_prompt_color_cleanstate green bold
 
 
 #-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
+
 set -x  MAVEN_OPTS "-Xmx1024m"
 set -x  JAVA_OPTS "-Xms1024m -Xmx4096m -XX:MaxMetaspaceSize=512m -verbose:gc  -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/przodownik/logs/dump.hprof -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M"
 set -x  SBT_OPTS  "-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled"
@@ -49,7 +50,7 @@ set -gx SPRING_CLI /opt/spring-1.3.1.RELEASE
 
 set -g -x WCS_PASSWORD slawek
 set PATH $PATH (find ~/.gvm/*/current/bin -maxdepth 0)
-set -gx PATH $JAVA_HOME/bin $MAVEN_HOME/bin $JMETER_HOME $HOME/.local/bin $GRADLE_HOME/bin $GRAILS_HOME/bin $JMETER_HOME/bin $SBT_HOME/bin $SPRING_CLI/bin $PATH
+set -gx PATH $JAVA_HOME/bin $MAVEN_HOME/bin $JMETER_HOME $HOME/.local/bin $GRADLE_HOME/bin $GRAILS_HOME/bin $JMETER_HOME/bin $SPRING_CLI/bin $PATH
 
 alias makeRelease='mvn clean install -Prelease'
 alias mvn-update='mvn versions:display-dependency-updates'
