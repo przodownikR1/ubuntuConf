@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="java-members" deleted="false" description="public method" enabled="true" id="org.eclipse.jdt.ui.templates.public_method" name="public_method">public ${return_type} ${name}(${}) {
+	${cursor}
+}</template></templates>
